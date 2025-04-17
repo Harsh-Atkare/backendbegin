@@ -17,6 +17,3 @@ app.get('/pg', (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
-
-console.log("this is changes");
-console.log("this is second main branch changes");
