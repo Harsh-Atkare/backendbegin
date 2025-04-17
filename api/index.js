@@ -3,6 +3,10 @@ const express = require('express')
 const app = express()
 const port = 5000
 
+export default function handler(req, res) {
+  res.status(200).json({ message: "Hello from backend!" });
+}
+
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
